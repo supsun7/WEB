@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="app/css/main.css"> <!-- Подключаем CSS -->
-    <link href="http://allfont.ru/allfont.css?fonts=dosis" rel="stylesheet" type="text/css" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="http://allfont.ru/allfont.css?fonts=dosis" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" href="app/css/main.css"> <!-- Подключаем CSS -->
 </head>
 <body>
     <header>
@@ -19,7 +21,15 @@
             <li class="menu-butt"><a href="/">CONTACT</a></li>
         </ul>
     </header>
-    <div class="discograph">
+    <div class="discograph" style="
+    width: 100%;
+    float: left;
+    background-image: url(app/img/disko-bg.png);
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 300px;
+">
         <div class="top-block">
             <a class="name" style=" text-decoration: line-through; color: #000">
                 <span style="color: #94674c">DISCOGRAPHY </span>
@@ -28,7 +38,8 @@
                 September 4 world heard Night Visions, the first full album. He reached the 2 position in the chart Billboard 200. The single «It's Time» took 22 th place in the Billboard Hot 100, 4th in the Billboard Alternative and Billboard Rock, and now went platinum.
             </div>
         </div>
-        <div class="disks">
+        
+        <div class=" disks">
             <div class="disk">
                 <div class="date_and_name">
                     <div class="disk_date">
@@ -49,6 +60,7 @@
         <div class="img">Play</div>
     </div>
 </div>
+
 
 <div class="disk">
     <div class="date_and_name">
@@ -93,6 +105,8 @@
     </div>
 </div>
 </div>
+
+
 </div>
 
     <div class="tours">
@@ -329,9 +343,9 @@
                     Lorem ipsum dolor sit amet, Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="albums2">
+       <!-- </div>
+   
+    <div class="albums">-->
         <div class="album">
             <div class="date_and_name album_dan">
                 <div class="disk_date">
@@ -454,5 +468,6 @@
 
         </div>
     </div>
+   
 </body>
 </html>
